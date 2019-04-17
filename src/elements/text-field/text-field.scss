@@ -1,4 +1,4 @@
-.text-field__input {
+.text-field {
     position: absolute;
     width: 320px;
     height: 44px;
@@ -18,4 +18,16 @@
     line-height: 18px;
     color: rgba(31, 32, 65, 0.25);
     padding: 0 15px;
+}
+
+.text-field:hover, .text-field:focus {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    //value
+    color: rgba(31, 32, 65, 0.75);
+
+    //user agent stylesheet disable
+    outline: none;
 }
