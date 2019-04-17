@@ -1,4 +1,4 @@
-.text-field {
+.text-field__input {
     position: absolute;
     width: 320px;
     height: 44px;
@@ -20,7 +20,7 @@
     padding: 0 15px;
 }
 
-.text-field:hover, .text-field:focus {
+.text-field__input:hover, .text-field__input:focus {
     border: 1px solid rgba(31, 32, 65, 0.5);
     box-sizing: border-box;
     border-radius: 4px;
