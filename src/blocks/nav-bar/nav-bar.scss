@@ -41,13 +41,11 @@ a.nav__a {
     line-height: normal;
     color: rgba(31, 32, 65, 0.5);
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 .nav__button-wrap {
     display: inline-block;
-    width: 83px;
-    height: 30px;
     margin: 18px;
     padding: 2px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -68,4 +66,22 @@ button.nav__button {
     text-transform: uppercase;
 
     color: #BC9CFF;
+}
+
+button.nav__button-second {
+    width: 196px;
+    height: 34px;
+    border: none;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    margin: 18px 0;
+    padding: 2px;
 }
