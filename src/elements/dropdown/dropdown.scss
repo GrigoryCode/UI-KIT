@@ -33,6 +33,13 @@ button.dropdown__btn {
     position: relative;
 }
 
+button.dropdown__btn:hover, button.dropdown__btn:focus {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+
+    //user agent stylesheet disable
+    outline: none;
+}
+
 i.fa.fa-angle-down {
     // font-style: normal;
     // font-weight: normal;
