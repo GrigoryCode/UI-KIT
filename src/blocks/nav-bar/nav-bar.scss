@@ -6,14 +6,14 @@
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 img.logo-img {
-    padding: 15px 0;
+    padding: 15px 10px;
     // margin-left: 3px;
 }
 
@@ -43,7 +43,7 @@ a.nav__a {
     text-decoration: none;
     // padding: 0 10px 0 5px;
     // position: relative;
-    margin: 0 5px 0 19px;
+    margin: 0 10px;
 }
 
 .nav__button-wrap {
@@ -52,7 +52,7 @@ a.nav__a {
 
 
     display: inline-block;
-    margin: 18px 20px;
+    margin: 18px 10px;
     padding: 2px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
@@ -85,14 +85,13 @@ button.nav__button-second {
     font-weight: bold;
     font-size: 12px;
     line-height: normal;
-    text-transform: uppercase;
     color: #ffffff;
     display: inline-block;
-    margin: 18px 0;
-    padding: 2px;
+    margin: 18px 10px;
 }
 
 i.fa.fa-angle-down {
     font-size: 19px;
     vertical-align: middle;
+    margin: 0 6px;
 }

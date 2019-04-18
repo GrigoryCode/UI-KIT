@@ -13,4 +13,4 @@ var e,t=arguments[3],n=require("process");!function(e,t){"use strict";"object"==
 },{"process":"pBGv"}],"epB2":[function(require,module,exports) {
 "use strict";require("./main.scss"),require("normalize.css");var e=r(require("jquery"));function r(e){return e&&e.__esModule?e:{default:e}}console.log("Hello main.js!");
 },{"./main.scss":"y+CD","normalize.css":"DOAq","jquery":"juYr"}]},{},["epB2"], null)
-//# sourceMappingURL=main.fcfb8348.js.map
+//# sourceMappingURL=main.060f8a09.js.map
