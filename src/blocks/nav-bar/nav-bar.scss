@@ -13,7 +13,7 @@
 }
 
 img.logo-img {
-    padding: 15px 10px;
+    margin: 15px 10px;
     // margin-left: 3px;
 }
 
@@ -58,9 +58,9 @@ a.nav__a {
     border-radius: 22px;
 }
 
-button.nav__button {
-    width: 83px;
-    height: 30px;
+a.nav__button {
+    // width: 83px;
+    // height: 30px;
     border: none;
     border-radius: 22px;
     background-color: #FFFFFF;
@@ -72,11 +72,20 @@ button.nav__button {
     text-transform: uppercase;
     padding: 0;
     color: #BC9CFF;
+
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 18px;
 }
 
-button.nav__button-second {
-    width: 196px;
-    height: 34px;
+// button.nav__button:focus {
+//     outline: none;
+// }
+
+a.nav__button-second {
+    // width: 196px;
+    // height: 34px;
     border: none;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -88,7 +97,15 @@ button.nav__button-second {
     color: #ffffff;
     display: inline-block;
     margin: 18px 10px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px 6px 22px;
 }
+
+// button.nav__button-second:focus {
+//     outline: none;
+// }
 
 i.fa.fa-angle-down {
     font-size: 19px;
