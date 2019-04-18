@@ -1,4 +1,4 @@
-import '../src/main.scss';
+import './main.scss';
 import 'normalize.css';
 import jQuery from 'jquery';
 
