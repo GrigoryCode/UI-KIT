@@ -14,7 +14,6 @@
 
 img.logo-img {
     margin: 15px 10px;
-    // margin-left: 3px;
 }
 
 .nav {
@@ -41,8 +40,6 @@ a.nav__a {
     line-height: normal;
     color: rgba(31, 32, 65, 0.5);
     text-decoration: none;
-    // padding: 0 10px 0 5px;
-    // position: relative;
     margin: 0 10px;
 }
 
@@ -52,13 +49,10 @@ a.nav__a:focus {
     font-weight: bold;
     font-size: 14px;
     line-height: normal;
+    color: rgba(31, 32, 65, 0.75);
 }
 
 .nav__button-wrap {
-    // width: 87px;
-    // height: 34px;
-
-
     display: inline-block;
     margin: 18px 10px;
     padding: 2px;
@@ -71,8 +65,6 @@ a.nav__a:focus {
 }
 
 a.nav__button {
-    // width: 83px;
-    // height: 30px;
     border: none;
     border-radius: 22px;
     background-color: #FFFFFF;
@@ -84,7 +76,6 @@ a.nav__button {
     text-transform: uppercase;
     padding: 0;
     color: #BC9CFF;
-
     display: inline-block;
     text-decoration: none;
     display: inline-block;
@@ -92,8 +83,6 @@ a.nav__button {
 }
 
 a.nav__button-second {
-    // width: 196px;
-    // height: 34px;
     border: none;
     border-radius: 22px;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);

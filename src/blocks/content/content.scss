@@ -4,3 +4,35 @@
     background: url(./img/image.png) no-repeat;
     background-size: 100%;
 }
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-first {
+    width: 380px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 70px 0 0 10px;
+}
+
+h2.card-first__title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.28;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #1F2041;
+    margin: 0;
+    margin: 40px 30px 10px 30px;
+
+}

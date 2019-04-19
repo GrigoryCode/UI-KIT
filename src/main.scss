@@ -1,5 +1,5 @@
-@import './blocks/nav-bar/nav-bar.scss';
-@import './blocks/content/content.scss';
+@import './blocks/nav-bar/nav-bar';
+@import './blocks/content/content';
 
 @font-face {
     font-family: 'Montserrat';
@@ -7,3 +7,11 @@
     font-weight: normal;
     font-style: normal; 
 }
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/Quicksand-Bold.ttf');
+    font-weight: bold;
+    font-style: normal; 
+}
+
