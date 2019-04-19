@@ -1,5 +1,5 @@
-@import './blocks/nav-bar/nav-bar';
-@import './blocks/content/content';
+// @import './blocks/nav-bar/nav-bar';
+// @import './blocks/content/content';
 
 @font-face {
     font-family: 'Montserrat';
@@ -15,3 +15,288 @@
     font-style: normal; 
 }
 
+// nav-bar----------------------------------------------------------------------
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+img.logo-img {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.nav {
+    display: flex;
+}
+
+ul.nav__ul {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+li.nav__li {
+    display: inline-block;
+}
+
+a.nav__a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: rgba(31, 32, 65, 0.5);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a.nav__a:focus {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.nav__button-wrap {
+    display: inline-block;
+    margin: 18px 10px;
+    padding: 2px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+}
+
+.nav__button-wrap:hover {
+    opacity: 0.5;
+}
+
+a.nav__button {
+    border: none;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 0;
+    color: #BC9CFF;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 18px;
+}
+
+a.nav__button-second {
+    border: none;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin: 18px 10px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px 6px 22px;
+}
+
+a.nav__button-second:hover {
+    opacity: 0.5;
+}
+
+img.nav_drop {
+    margin: 0 6px;
+}
+
+// content--------------------------------------------------------------
+.content {
+    height: 830px;
+    width: 100%;
+    background: url(./img/image.png) no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    width: 380px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 70px 0 0 10px;
+}
+
+h2.card-1__title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.28;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #1F2041;
+    margin: 0;
+    margin: 40px 30px 10px 30px;
+
+}
+
+.card-1__block-1 {
+    margin: 5px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1__block-2 {
+    display: inline-block;
+}
+
+h3.card-1__h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #1F2041;
+    margin: 10px 0 5px 0;
+}
+
+button.card-1__dropdown-1 {
+    width: 150px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
+    padding: 0 12px;
+    vertical-align: middle;
+    position: relative;
+}
+
+img.card-1__drop {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.card-1__block-3 {
+    margin: 20px 30px 10px 30px;
+    // display: flex;
+    // justify-content: space-between;
+}
+
+button.card-1__dropdown-2 {
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
+    padding: 0 12px;
+    vertical-align: middle;
+    position: relative;
+}
+
+a.card-1__button {
+    border: none;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin: 21px 30px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 96px 15px 90px;
+    position: relative;
+}
+
+a.card-1__button:hover {
+    opacity: 0.5;
+}
+
+img.card-1__arrow {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+}
+
+p.sign {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: rgba(31, 32, 65, 0.75);    position: absolute;
+    bottom: 7px;
+    right: 5px;
+}
+
+// footer-1 ------------------------------------
+.footer-1 {
+    width: 100%;
+    height: 372px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+// footer-2
+.footer-2{
+    width: 100%;
+    height: 70px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-top: 1px solid rgba(31, 32, 65, 0.25);
+}
