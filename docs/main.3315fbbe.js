@@ -1,6 +1,6 @@
 parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"y+CD":[function(require,module,exports) {
 
-},{"./img/image.png":[["image.d77e3f15.png","wt+3"],"wt+3"],"./fonts/Montserrat-Regular.ttf":[["Montserrat-Regular.5d4fcf4d.ttf","tPtE"],"tPtE"]}],"DOAq":[function(require,module,exports) {
+},{"./fonts/Montserrat-Regular.ttf":[["Montserrat-Regular.5d4fcf4d.ttf","tPtE"],"tPtE"],"./fonts/Quicksand-Bold.ttf":[["Quicksand-Bold.9e1c9316.ttf","hai1"],"hai1"],"./img/image.png":[["image.d77e3f15.png","wt+3"],"wt+3"]}],"DOAq":[function(require,module,exports) {
 
 },{}],"pBGv":[function(require,module,exports) {
 
@@ -13,4 +13,4 @@ var e,t=arguments[3],n=require("process");!function(e,t){"use strict";"object"==
 },{"process":"pBGv"}],"epB2":[function(require,module,exports) {
 "use strict";require("./main.scss"),require("normalize.css");var e=r(require("jquery"));function r(e){return e&&e.__esModule?e:{default:e}}console.log("Hello main.js!");
 },{"./main.scss":"y+CD","normalize.css":"DOAq","jquery":"juYr"}]},{},["epB2"], null)
-//# sourceMappingURL=main.2c04e1c9.js.map
+//# sourceMappingURL=main.3315fbbe.js.map
