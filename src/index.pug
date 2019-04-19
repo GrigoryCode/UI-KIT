@@ -9,43 +9,45 @@ html(lang="en")
 
         .nav-bar
             .container
-                img.logo-img(src="./img/logo.svg", alt="Logo")
-                .nav
-                    ul.nav__ul
-                        li.nav__li
-                            a.nav__a(href="#") О нас
-                            a.nav__a(href="#") Услуги 
-                                img.nav_drop(src="./img/drop.svg")
-                            a.nav__a(href="#") Вакансии
-                            a.nav__a(href="#") Новости
-                            a.nav__a(href="#") Соглашения
-                                img.nav_drop(src="./img/drop.svg")
-                    .nav__button-wrap
-                        a.nav__button(href="#") ВОЙТИ
-                    a.nav__button-second(href="#") ЗАРЕГИСТРИРОВАТЬСЯ
+                .nav-bar__wrap
+                    img.logo-img(src="./img/logo.svg", alt="Logo")
+                    .nav
+                        ul.nav__ul
+                            li.nav__li
+                                a.nav__a(href="#") О нас
+                                a.nav__a(href="#") Услуги 
+                                    img.nav_drop(src="./img/drop.svg")
+                                a.nav__a(href="#") Вакансии
+                                a.nav__a(href="#") Новости
+                                a.nav__a(href="#") Соглашения
+                                    img.nav_drop(src="./img/drop.svg")
+                        .nav__button-wrap
+                            a.nav__button(href="#") ВОЙТИ
+                        a.nav__button-second(href="#") ЗАРЕГИСТРИРОВАТЬСЯ
         .content
             .container
-                .card-1
-                    h2.card-1__title Найдём номера под ваши пожелания
-                    .card-1__block-1
-                        .card-1__block-2
-                            h3.card-1__h3 ПРИБЫТИЕ
-                            button.card-1__dropdown-1 ДД.ММ.ГГГГ
+                .content-wrap
+                    .card-1
+                        h2.card-1__title Найдём номера под ваши пожелания
+                        .card-1__block-1
+                            .card-1__block-2
+                                h3.card-1__h3 ПРИБЫТИЕ
+                                button.card-1__dropdown-1 ДД.ММ.ГГГГ
+                                    img.card-1__drop(src="./img/drop.svg")
+                            .card-1__block-2
+                                h3.card-1__h3 ВЫЕЗД
+                                button.card-1__dropdown-1 ДД.ММ.ГГГГ
+                                    img.card-1__drop(src="./img/drop.svg")
+                        .card-1__block-3
+                            h3.card-1__h3 ГОСТИ
+                            button.card-1__dropdown-2 Сколько гостей
                                 img.card-1__drop(src="./img/drop.svg")
-                        .card-1__block-2
-                            h3.card-1__h3 ВЫЕЗД
-                            button.card-1__dropdown-1 ДД.ММ.ГГГГ
-                                img.card-1__drop(src="./img/drop.svg")
-                    .card-1__block-3
-                        h3.card-1__h3 ГОСТИ
-                        button.card-1__dropdown-2 Сколько гостей
-                            img.card-1__drop(src="./img/drop.svg")
-                    a.card-1__button ПОДОБРАТЬ НОМЕР
-                        img.card-1__arrow(src="./img/arrow.svg")
-                p.sign.text
-                    |   Лучшие номера для вашей работы,
+                        a.card-1__button ПОДОБРАТЬ НОМЕР
+                            img.card-1__arrow(src="./img/arrow.svg")
+                p.sign__text
+                    | Лучшие номера для вашей работы,
                     br
-                    |   отдыха и просто вдохновения
+                    | отдыха и просто вдохновения        
         .footer-1
         .footer-2
 
