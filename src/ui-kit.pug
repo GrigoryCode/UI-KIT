@@ -4,10 +4,43 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title UI KIT TOXIN
+        title UI kit TOXIN
         link(rel='stylesheet' href='main.scss')
     body
-        h1 UI
         include blocks/project-menu/project-menu
-        
+        .ui-conteiner
+            .ui-wrap
+                .text-field-1
+                    h3.text-field-1__h3 text field
+                    input(value='Email').text-field-1__input
+            .ui-wrap
+                .text-field-2
+                    h3.text-field-2__h3 text field
+                    input(value='This is pretty awesome').text-field-2__input
+            .ui-wrap
+                .dropdown-1
+                    h3.dropdown-1__h3 dropdown
+                    button.dropdown-1 Сколько гостей
+                        img.dropdown-1__drop(src="./img/drop.svg")
+            .ui-wrap
+                .text-field-3
+                    h3.text-field-3__h3 masked text field
+                    input(value='ДД.ММ.ГГГГ').text-field-3__input
+            .ui-wrap
+                .dropdown-2
+                    .dropdown-2__block
+                        h3.dropdown-2__h3 data Dropdown
+                        button.dropdown-2__button ДД.ММ.ГГГГ
+                            img.button.dropdown-2__img(src="./img/drop.svg")
+                    .dropdown-2__block
+                        h3.dropdown-2__h3 data Dropdown
+                        button.dropdown-2__button 19.08.2019
+                            img.button.dropdown-2__img(src="./img/drop.svg")
+            .ui-wrap
+                .dropdown-3
+                    h3.dropdown-3__h3 filter dropdown 
+                    button.dropdown-3 19 авг - 23 авг
+                        img.dropdown-3__drop(src="./img/drop.svg")
+
+
         script(src='main.js')
