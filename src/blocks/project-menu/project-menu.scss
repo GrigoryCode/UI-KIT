@@ -1,0 +1,24 @@
+.project-menu {
+    position: absolute;
+    background-color: #1F2041;
+    top: 100px;
+    border-radius: 0 4px 4px 0;
+}
+
+a.project-menu_link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    // text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+}
+
+a.project-menu_link:hover {
+    color: #E5E5E5;
+}

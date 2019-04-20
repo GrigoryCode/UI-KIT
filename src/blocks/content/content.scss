@@ -1,0 +1,150 @@
+.content {
+    height: 830px;
+    background: url(./img/image.png) no-repeat;
+    background-size: cover;
+    // position: relative;
+}
+
+.content-wrap {
+    padding: 70px 10px 0 10px;
+    height: 100%;
+}
+
+.card-1 {
+    width: 380px;
+    height: 374px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+h2.card-1__title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.28;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #1F2041;
+    margin: 0;
+    margin: 40px 30px 10px 30px;
+
+}
+
+.card-1__block-1 {
+    margin: 5px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1__block-2 {
+    display: inline-block;
+}
+
+h3.card-1__h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #1F2041;
+    margin: 10px 0 5px 0;
+}
+
+button.card-1__dropdown-1 {
+    width: 150px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
+    padding: 0 12px;
+    vertical-align: middle;
+    position: relative;
+}
+
+img.card-1__drop {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.card-1__block-3 {
+    margin: 20px 30px 10px 30px;
+    // display: flex;
+    // justify-content: space-between;
+}
+
+button.card-1__dropdown-2 {
+    width: 320px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
+    padding: 0 12px;
+    vertical-align: middle;
+    position: relative;
+}
+
+a.card-1__button {
+    border: none;
+    border-radius: 22px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin: 21px 30px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 96px 15px 90px;
+    position: relative;
+}
+
+a.card-1__button:hover {
+    opacity: 0.5;
+}
+
+img.card-1__arrow {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+}
+
+p.sign__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: rgba(31, 32, 65, 0.75);
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    margin-right: 5px;
+}

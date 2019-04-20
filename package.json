@@ -1,7 +1,7 @@
 {
   "name": "ui-kit",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.pug",
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.pug --open",
@@ -10,7 +10,7 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "pug": "^2.0.3",
-    "sass": "^1.18.0"
+    "sass": "^1.19.0"
   },
   "dependencies": {
     "jquery": "^3.4.0",
