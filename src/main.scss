@@ -29,6 +29,11 @@
     margin: 0 auto;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 // UI kit -------------------------------------------------
 
 .ui-conteiner {
@@ -134,8 +139,8 @@ button.dropdown-1 {
 
 img.dropdown-1__drop {
     position: absolute;
-    right: 12px;
-    top: 14px;
+    right: 15px;
+    top: 18px;
 }
 
 // text-field-3
@@ -188,14 +193,14 @@ h3.dropdown-2__h3 {
     line-height: normal;
     text-transform: uppercase;
     color: #1F2041;
-    margin: 10px 0 5px 0;
+    margin: 0 0 5px 0;
 }
 
 button.dropdown-2__button {
     width: 150px;
     height: 44px;
     background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.75);
+    border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 4px;
     font-family: Montserrat;
@@ -232,7 +237,7 @@ button.dropdown-3 {
     width: 266px;
     height: 44px;
     background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.75);
+    border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 4px;
     font-family: Montserrat;
@@ -249,6 +254,6 @@ button.dropdown-3 {
 
 img.dropdown-3__drop {
     position: absolute;
-    right: 12px;
-    top: 14px;
+    right: 15px;
+    top: 18px;
 }
