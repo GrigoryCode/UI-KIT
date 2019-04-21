@@ -9,40 +9,87 @@ html(lang="en")
     body
         include blocks/project-menu/project-menu
         .ui-container
+            h1 Colors &amp; Type
+        .ui-container
+            div
+                .ui-wrap
+                    .color-1
+                    p.color-h3 <b>Dark Shade 100%</b><br>#1F2041
+                .ui-wrap
+                    .color-2
+                    p.color-h3 <b>Dark Shade 75%</b><br>#1F2041
+                .ui-wrap
+                    .color-3
+                    p.color-h3 <b>Dark Shade 50%</b><br>#1F2041
+                .ui-wrap
+                    .color-4
+                    p.color-h3 <b>Dark Shade 25%</b><br>#1F2041
+            div
+                .ui-wrap
+                    .color-5
+                    p.color-h3 <b>Dark Shade 5%</b><br>#1F2041
+                .ui-wrap
+                    .color-6
+                    p.color-h3 <b>Purple</b><br>#BC9CFF
+                .ui-wrap
+                    .color-7
+                    p.color-h3 <b>Green</b><br>#6FCF97
+            div
+                .ui-wrap
+                    .text-h1-title H1
+                    .text-h1 This one is the sub-section or<br>widget title
+                .ui-wrap
+                    .text-h2-title H2
+                    .text-h2 Next one is the item title inside<br>widgets
+                .ui-wrap
+                    .text-h3-title H3
+                    .text-h3 This is a label or CTA text
+                .ui-wrap
+                    .text-body-title body
+                    .text-body This is the body text which is used for most<br>of the design, like paragraphs, lists, etc.       
+        
+        
+        .ui-container
             h1 Form Elements
         .ui-container
-            .ui-wrap
-                .text-field-1
-                    h3.text-field-1__h3 text field
-                    input(value='Email').text-field-1__input
-            .ui-wrap
-                .text-field-2
-                    h3.text-field-2__h3 text field
-                    input(value='This is pretty awesome').text-field-2__input
-            .ui-wrap
-                .dropdown-1
-                    h3.dropdown-1__h3 dropdown
-                    button.dropdown-1 Сколько гостей
-                        img.dropdown-1__drop(src="./img/drop.svg")
-            .ui-wrap
-                .text-field-3
-                    h3.text-field-3__h3 masked text field
-                    input(value='ДД.ММ.ГГГГ').text-field-3__input
-            .ui-wrap
-                .dropdown-2
-                    .dropdown-2__block
-                        h3.dropdown-2__h3 data Dropdown
-                        button.dropdown-2__button ДД.ММ.ГГГГ
-                            img.button.dropdown-2__img(src="./img/drop.svg")
-                    .dropdown-2__block
-                        h3.dropdown-2__h3 data Dropdown
-                        button.dropdown-2__button 19.08.2019
-                            img.button.dropdown-2__img(src="./img/drop.svg")
-            .ui-wrap
-                .dropdown-3
-                    h3.dropdown-3__h3 filter dropdown 
-                    button.dropdown-3 19 авг - 23 авг
-                        img.dropdown-3__drop(src="./img/drop.svg")
-
+            div
+                .ui-wrap
+                    .text-field-1
+                        h3.text-field-1__h3 text field
+                        input(value='Email').text-field-1__input
+                .ui-wrap
+                    .text-field-2
+                        h3.text-field-2__h3 text field
+                        input(value='This is pretty awesome').text-field-2__input
+                .ui-wrap
+                    .dropdown-1
+                        h3.dropdown-1__h3 dropdown
+                        button.dropdown-1 Сколько гостей
+                            img.dropdown-1__drop(src="./img/drop.svg")
+                .ui-wrap
+                    .text-field-3
+                        h3.text-field-3__h3 masked text field
+                        input(value='ДД.ММ.ГГГГ').text-field-3__input
+                .ui-wrap
+                    .dropdown-2
+                        .dropdown-2__block
+                            h3.dropdown-2__h3 data Dropdown
+                            button.dropdown-2__button ДД.ММ.ГГГГ
+                                img.button.dropdown-2__img(src="./img/drop.svg")
+                        .dropdown-2__block
+                            h3.dropdown-2__h3 data Dropdown
+                            button.dropdown-2__button 19.08.2019
+                                img.button.dropdown-2__img(src="./img/drop.svg")
+                .ui-wrap
+                    .dropdown-3
+                        h3.dropdown-3__h3 filter dropdown 
+                        button.dropdown-3 19 авг - 23 авг
+                            img.dropdown-3__drop(src="./img/drop.svg")
+                .ui-wrap
+                    .text-sub-1
+                        h3.text-sub-1__h3 subscription text field
+                        input(value='Email').text-sub-1__input
+                        button.text-sub-1__btn
+                            img.text-sub-1__arrow(src="./img/arrow_forward.svg")
 
         script(src='main.js')
